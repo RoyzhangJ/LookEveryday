@@ -1,4 +1,4 @@
-package lookeveryday.roy.com.lookeveryday;
+package com.roy.lookeveryday.mylibrary;
 
 import org.junit.Test;
 
