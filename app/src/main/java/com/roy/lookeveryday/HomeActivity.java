@@ -2,6 +2,9 @@ package com.roy.lookeveryday;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+
+import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -9,6 +12,14 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        RequestQueue
+        ArrayList list = new ArrayList();
+        list.add("a");
+        list.add(1);
+        Log.e("zhang223",""+list.get(0));
+//        try {
+//            Class a = Class.forName("com.roy.lookeveryday.Lapp");
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
     }
 }
